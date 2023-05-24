@@ -117,10 +117,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Olá, meu nome é"
+    intro: "Olá, meu nome é:"
     title: "Arles."
-    subtitle: "Eu desenvolvo e analiso dados..."
-    content: "Sou apaixonado por tecnologia, análise de dados e desenvolvimento de sistemas. Além disso, sou pessoa neurodiversa."
+    subtitle: "Analista de dados, pai e pessoa neurodiversa..."
+    content: "Sou apaixonado por tecnologia, análise de dados e desenvolvimento de sistemas."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -134,12 +134,10 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
+          url: https://github.com/aarles
       customIcons:
         - icon: /fav.png
-          url: "https://example.com"
+          url: "https://arles.dados.red"
 
   # About
   about:
@@ -193,7 +191,7 @@ params:
   # Education
   education:
     enable: true
-    itle: "Formação Acadêmica"
+    title: "Formação Acadêmica"
     index: false
     items:
       - title: "Graduação Tecnológica"
@@ -201,15 +199,15 @@ params:
           name: "Centro Universitário Claretiano"
           url: "https://claretiano.edu.br"
         date: "2019 - 2021"
-        GPA: "3.8 out of 5.0"
-        content: |-
+        # GPA: "3.8 out of 5.0"
+        # content: |-
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -228,7 +226,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
