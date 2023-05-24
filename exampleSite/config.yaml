@@ -1,5 +1,5 @@
-baseURL: "https://dados.red/"
-languageCode: "pt-br"
+baseURL: "https://dados.red"
+languageCode: "en-us"
 title: "Antonio Arles"
 theme: hugo-profile
 
